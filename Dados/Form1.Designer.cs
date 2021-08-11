@@ -105,12 +105,12 @@ namespace Dados
             // 
             // textComputador
             // 
-            this.textComputador.BackColor = System.Drawing.SystemColors.Menu;
-            this.textComputador.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textComputador.ForeColor = System.Drawing.Color.Transparent;
+            this.textComputador.BackColor = System.Drawing.SystemColors.Window;
+            this.textComputador.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.textComputador.ForeColor = System.Drawing.Color.Black;
             this.textComputador.Location = new System.Drawing.Point(115, 238);
             this.textComputador.Name = "textComputador";
-            this.textComputador.Size = new System.Drawing.Size(100, 16);
+            this.textComputador.Size = new System.Drawing.Size(100, 23);
             this.textComputador.TabIndex = 11;
             // 
             // Form1
